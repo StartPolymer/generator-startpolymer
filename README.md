@@ -61,10 +61,10 @@ yo startpolymer
 
 Available generators:
 
-- [polymer (aka polymer:app)](#app)
-- [polymer:element](#element-alias-el)
-- [polymer:seed](#seed)
-- [polymer:gh](#gh)
+- [startpolymer (aka polymer:app)](#app)
+- [startpolymer:element](#element-alias-el)
+- [startpolymer:seed](#seed)
+- [startpolymer:gh](#gh)
 
 **Note: Generators are to be run from the root of your app**
 
