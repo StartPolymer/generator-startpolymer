@@ -25,7 +25,7 @@ module.exports = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Have Yeoman greet the user.
-    this.log(yosay('Out of the box I include Polymer Starter Kit'));
+    this.log(yosay('Out of the box I include Polymer Starter Kit Plus'));
 
     var prompts = [
       {

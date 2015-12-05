@@ -45,7 +45,7 @@ module.exports = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Have Yeoman greet the user.
-    this.log(yosay('Out of the box I include Polymer\'s seed-element.'));
+    this.log(yosay('Out of the box I include Polymer\'s seed-element-plus'));
 
     var prompts = [{
         name: 'ghUser',
