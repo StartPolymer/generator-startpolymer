@@ -1,0 +1,8 @@
+[submodule "app/templates/polymer-starter-kit-plus"]
+  path = app/templates/polymer-starter-kit-plus
+  url = https://github.com/StartPolymer/polymer-starter-kit-plus.git
+  branch = master
+[submodule "seed/templates/seed-element-plus"]
+  path = seed/templates/seed-element-plus
+  url = https://github.com/StartPolymer/seed-element-plus.git
+  branch = master
