@@ -15,7 +15,7 @@
   "repository": "StartPolymer/generator-startpolymer",
   "scripts": {
     "test": "jshint {app,el,gh,seed,test}/*.js script-base.js util.js && mocha --reporter spec",
-    "prepublish": "git submodule update --init --recursive --remote"
+    "prepublish": "git submodule update --init --recursive"
   },
   "dependencies": {
     "chalk": "^1.0.0",
