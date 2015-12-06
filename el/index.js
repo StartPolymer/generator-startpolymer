@@ -22,12 +22,12 @@ module.exports = yeoman.generators.Base.extend({
     // This method adds support for a `--path` flag
     // An element generated with a --path will create a matching directory
     // structure in the `app/elements` dir.
-    // ex: yo polymer:el x-foo --path foo/bar/baz will create
+    // ex: yo startpolymer:el x-foo --path foo/bar/baz will create
     // app/elements/foo/bar/baz/x-foo
     this.option('path');
 
     // Allow aliasing of the 'el' subgenerator by other subgenerators like
-    // yo polymer:element. Without this fix those generators will attempt to copy
+    // yo startpolymer:element. Without this fix those generators will attempt to copy
     // from their own template directories (which don't exist)
     // Fixes https://github.com/yeoman/generator-polymer/issues/232#issuecomment-147847138
     this.sourceRoot(path.join(__dirname, 'templates'));
@@ -41,7 +41,7 @@ module.exports = yeoman.generators.Base.extend({
     if (this.elementName.indexOf('-') === -1) {
       this.emit('error', new Error(
         'Element name must contain a dash "-"\n' +
-        'ex: yo polymer:el my-element'
+        'ex: yo startpolymer:el my-element'
       ));
     }
   },

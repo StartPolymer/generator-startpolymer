@@ -4,9 +4,9 @@ var path    = require('path');
 var helpers = require('yeoman-generator').test;
 var assert  = require('yeoman-generator').assert;
 
-describe('yo polymer:app', function() {
+describe('yo startpolymer:app', function() {
 
-  describe('yo polymer:app with WCT test', function () {
+  describe('yo startpolymer:app with WCT test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -47,7 +47,7 @@ describe('yo polymer:app', function() {
 
   });
 
-  describe('yo polymer:app without WCT test', function () {
+  describe('yo startpolymer:app without WCT test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -89,7 +89,7 @@ describe('yo polymer:app', function() {
 
   });
 
-  describe('yo polymer:app with Recipes test', function () {
+  describe('yo startpolymer:app with Recipes test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -124,7 +124,7 @@ describe('yo polymer:app', function() {
   });
 
 
-  describe('yo polymer:app without Recipes test', function () {
+  describe('yo startpolymer:app without Recipes test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))

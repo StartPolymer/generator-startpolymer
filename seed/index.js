@@ -84,7 +84,7 @@ module.exports = yeoman.generators.Base.extend({
         this.templatePath() + '/**',
         this.templatePath() + '/**/.*'],
       this.destinationPath(),
-      { 
+      {
         process: renameElement,
         globOptions: {
           ignore: [

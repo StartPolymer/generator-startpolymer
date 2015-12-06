@@ -5,9 +5,9 @@ var fs      = require('fs-extra');
 var helpers = require('yeoman-generator').test;
 var assert  = require('yeoman-generator').assert;
 
-describe('yo polymer:el', function() {
+describe('yo startpolymer:el', function() {
 
-  describe('yo polymer:el test', function () {
+  describe('yo startpolymer:el test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -57,7 +57,7 @@ describe('yo polymer:el', function() {
 
   });
 
-  describe('yo polymer:el --docs test', function () {
+  describe('yo startpolymer:el --docs test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -91,7 +91,7 @@ describe('yo polymer:el', function() {
     });
   });
 
-  describe('yo polymer:el --path test', function () {
+  describe('yo startpolymer:el --path test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../app'))
@@ -130,7 +130,7 @@ describe('yo polymer:el', function() {
     });
   });
 
-  describe('yo polymer:el TDD test', function () {
+  describe('yo startpolymer:el TDD test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../el'))
@@ -177,7 +177,7 @@ describe('yo polymer:el', function() {
     });
   });
 
-  describe('yo polymer:el BDD test', function () {
+  describe('yo startpolymer:el BDD test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../el'))
@@ -217,7 +217,7 @@ describe('yo polymer:el', function() {
     });
   });
 
-  describe('yo polymer:el None test', function () {
+  describe('yo startpolymer:el None test', function () {
 
     before(function (done) {
       helpers.run(path.join(__dirname, '../el'))
